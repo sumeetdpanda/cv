@@ -1,5 +1,13 @@
 body {
-  background-color: #ddf3f5;
+  text-align: center;
+  font-family: "Merriweather";
+  margin: 0;
+}
+
+.quo {
+  margin-top: 0;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
 }
 
 hr {
@@ -8,8 +16,111 @@ hr {
   border-width: 5px;
   border-color: grey;
   width: 5%;
+  margin: 90px auto 90px auto;
 }
 
-h3, h1 {
-  color: #a6dcef;
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: "Clicker Script";
+  color: #66BFBF;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: "Montserrat";
+  font-size: 3.125rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: "Montserrat";
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin-top: 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 60px;
+  margin-top: 10px;
+}
+
+.hello {
+  margin-top: 50px
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.img-web {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.img-game {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.contact-desc {
+  margin: 30px auto;
+}
+
+.footer-cr {
+  color: #EAF6F6;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 0 20px;
+}
+
+.btn {
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #3D94F6;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background: #66BFBF;
+  border-radius: 20px;
+  text-decoration: none;
 }
